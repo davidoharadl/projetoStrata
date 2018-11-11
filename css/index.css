@@ -11,7 +11,7 @@ body { margin: 0;}
     width: 39%;
 }
 #content {
-    float: left;
+    float: right;
 }
 #area-user {
     background-image: url("../imagens/bg.jpg");
@@ -20,6 +20,7 @@ body { margin: 0;}
     height: 570px;
     float: left;
     margin-right: 4%;
+    position: fixed;
 }
 #area-user .img-user {
    margin-left: 320px;
