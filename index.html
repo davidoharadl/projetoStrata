@@ -97,11 +97,11 @@
                 </article>
             </section>
             <section class="elemets">
-                <h2>Elements</h2>
+                <h2 class="title">Elements</h2>
                 <h3>Text</h3>
                 <p>This is <b>bold</b> and this is <strong>strong.</strong>
                 This is <i>italic</i> and this is <em>emphasized</em>. This is
-                superscript text. This is <u>underlined</u> and this is
+                <sup>superscript</sup> text. This is <u>underlined</u> and this is
                 <code>code: for (;;) {...}</code>. Finally, this is 
                 <a class="link-verde">a link.</a>
                 </p>
@@ -111,121 +111,138 @@
                 <h4>Titulo h4</h4>
                 <h5>Titulo h5</h5>
                 <h6>Titulo h6</h6>
-                <cite>Essa é uma citação tirada de sei la aonde.
-                    outros parágrafos
-                </cite>
+                <cite>Essa é uma citação tirada de sei la aonde. outros parágrafos.
+                Essa é uma citação tirada de sei la aonde. outros parágrafos</cite>
                 <p>è um texto aqui de exemplo doido de paragrafo chato</p>
                 <pre>
-                    <!-- <script>
-                        alert('oi');    
-                    </script> -->
+                    <code>
+                        <!-- <script>
+                            alert('oi');    
+                        </script> -->
+                    </code>
                 </pre>
-                <h3>Listas</h3>
-                <p class="subtitulo">Não ordenada</p>
-                <ul>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ul>
-                <p class="subtitulo">Ordenada</p>
-                <ol>
-                    <li>item 1</li>
-                    <li>item 2</li>
-                    <li>item 3</li>
-                </ol>
-                <p class="subtitulo">Alternate</p>
-                <ul>item 1
-                item 2
-                item 3</ul>
-                <p class="subtitulo">Icons</p>
-                <ul class="icon-social">
-                    <li>
-                        <a href="#"><img src="#" alt=""></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="#" alt=""></a>
-                    </li>
-                </ul>
-                <p class="subtitulo">Actions</p>
-                <button class="bnt-branco">Default</button>
-                <button class="bnt-verde">Default</button>
-                <button class="bnt-branco-sm">Default</button>
-                <button class="bnt-verde-sm">Default</button>
-                <button class="bnt-branco-lg">Default</button>
-                <button class="bnt-verde-lg">Default</button>
-                <button class="bnt-branco-lgm">Default</button>
-                <button class="bnt-verde-lgm">Default</button>
-                <h3>Table</h3>
-                <p class="subtitulo">Default</p>
-                <table class="default">
-                    <thead>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Price</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p class="subtitulo">Alternate</p>
-                <table class="default">
-                    <thead>
-                        <th>Name</th>
-                        <th>Description</th>
-                        <th>Price</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                        <tr>
-                            <td>Item one</td>
-                            <td>Descrição do item um</td>
-                            <td>29.00</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h2>Listas</h2>
+                <div class="col50 left">
+                    <p class="subtitulo">Não ordenada</p>
+                    <ul>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                    <p class="subtitulo">Ordenada</p>
+                    <ol>
+                        <li>item 1</li>
+                        <li>item 2</li>
+                        <li>item 3</li>
+                    </ol>
+                </div>
+                <div class="col50 left">
+                    <p class="subtitulo">Alternate</p>
+                    <ul class="alternate">
+                        <li>item 1</li>
+                        <li class="item2">item 2</li>
+                        <li>item 3</li>
+                    </ul>
+                    <p class="subtitulo">Icons</p>
+                    <ul class="icon-social">
+                        <li class="left">
+                            <a href="#"><img src="imagens/social_media/facebook.svg" alt=""></a>
+                        </li>
+                        <li class="left">
+                            <a href="#"><img src="imagens/social_media/twitter-social-media.svg" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <p class="subtitulo clear">Actions</p>
+                <div class="col50 left">
+                    <div class="block">
+                        <button class="bnt-branco">Default</button>
+                        <button class="bnt-verde">Default</button>    
+                    </div>
+                    <button class="bnt-branco-sm">Default</button>
+                    <button class="bnt-verde-sm">Default</button>    
+                </div>
+                <div class="col50 right">
+                    <button class="bnt-branco-lg">Default</button>
+                    <button class="bnt-verde-lg">Default</button>
+                    <button class="bnt-branco-lgm">Default</button>
+                    <button class="bnt-verde-lgm">Default</button>    
+                </div>
+                <div class="clear">
+                    <h2>Table</h2>
+                    <p class="subtitulo">Default</p>
+                    <table class="default">
+                        <thead>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="subtitulo">Alternate</p>
+                    <table class="default">
+                        <thead>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                            <tr>
+                                <td>Item one</td>
+                                <td>Descrição do item um</td>
+                                <td>29.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
                 <h3>Buttons</h3>
                 <button>Default</button>
                 <button>Default</button>
